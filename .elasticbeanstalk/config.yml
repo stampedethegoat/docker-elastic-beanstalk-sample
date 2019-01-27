@@ -1,6 +1,6 @@
 branch-defaults:
   master:
-    environment: docker-vibes
+    environment: datadog-eb
     group_suffix: null
 global:
   application_name: datadog-eb
