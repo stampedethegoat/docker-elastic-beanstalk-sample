@@ -1,12 +1,9 @@
 branch-defaults:
   master:
-    environment: eb-medium-2
-environment-defaults:
-  eb-medium:
-    branch: null
-    repository: null
+    environment: docker-vibes
+    group_suffix: null
 global:
-  application_name: .elasticbeanstalk
+  application_name: datadog-eb
   branch: null
   default_ec2_keyname: aws-eb
   default_platform: Docker 18.06.1-ce
