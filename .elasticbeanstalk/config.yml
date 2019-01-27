@@ -1,13 +1,16 @@
 branch-defaults:
   master:
-    environment: elastic-beanstalk-tutorial-dev
-    group_suffix: null
+    environment: eb-medium-2
+environment-defaults:
+  eb-medium:
+    branch: null
+    repository: null
 global:
-  application_name: elastic-beanstalk-tutorial
+  application_name: .elasticbeanstalk
   branch: null
-  default_ec2_keyname: null
-  default_platform: Docker 17.03.1-ce
-  default_region: ca-central-1
+  default_ec2_keyname: aws-eb
+  default_platform: Docker 18.06.1-ce
+  default_region: us-west-2
   include_git_submodules: true
   instance_profile: null
   platform_name: null
